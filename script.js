@@ -571,7 +571,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         const items = cart.map(item => `• ${item.name} (${item.price.toLocaleString()} FCFA)`).join('\n');
         const total = cart.reduce((sum, item) => sum + item.price, 0);
-        this.href = `https://wa.me/221779284528?text=Bonjour KHILSHOP, je commande :%0A${encodeURIComponent(items)}%0ATotal : ${total} FCFA`;
+        this.href = `https://wa.me/221779284528?text=Bonjour KHALILSHOP, je commande :%0A${encodeURIComponent(items)}%0ATotal : ${total} FCFA`;
     });
 
     // ---------- NAVIGATION SMOOTH ----------
