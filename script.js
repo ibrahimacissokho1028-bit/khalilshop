@@ -10,55 +10,55 @@ document.addEventListener('DOMContentLoaded', function() {
         // ---------- VÊTEMENTS ----------
         { 
             id: 1, 
-            name: "T-shirt Premium Noir", 
-            price: 4500, 
+            name: "T-shirt Unique ", 
+            price: 2000, 
             image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop", 
             stock: 12,
             category: "Vêtements"
         },
         { 
             id: 2, 
-            name: "Chemise Casual Bleue", 
-            price: 6500, 
+            name: "Chemise", 
+            price: 4000, 
             image: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=400&h=400&fit=crop", 
             stock: 8,
             category: "Vêtements"
         },
         { 
             id: 3, 
-            name: "Jean Slim Gris", 
+            name: "Pantalon Cargo", 
             price: 8500, 
-            image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400&h=400&fit=crop", 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLBb-QpQXS0OgWV6DuhRg2uxDNgO3-DV_zLMnX4wlnzg&s=10", 
             stock: 5,
             category: "Vêtements"
         },
         { 
             id: 4, 
-            name: "Blouson Léger Beige", 
+            name: "Ensemble Nike", 
             price: 12000, 
-            image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop", 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU11eT8wOSszTg8_KgqrHBOtAo7nr0CnNGPVGlfc5eDQ&s=10", 
             stock: 3,
             category: "Vêtements"
         },
         { 
             id: 7, 
-            name: "Polo Lacoste Bleu", 
+            name: "Lacoste ", 
             price: 7500, 
-            image: "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d92?w=400&h=400&fit=crop", 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOgyUNx5wfEM0NfGIT2wRPVp5Cmf6D7ubTznbKaf-gbw&s=10", 
             stock: 10,
             category: "Vêtements"
         },
         { 
             id: 8, 
-            name: "Veste en Cuir Noir", 
-            price: 18000, 
-            image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop", 
+            name: " Pantalon Boy Friend", 
+            price: 7000, 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBpDVQwz0Dgd-5G_9IeNcWiFLGC6jAUem-T1vE7pnY9g&s=10", 
             stock: 4,
             category: "Vêtements"
         },
         { 
             id: 9, 
-            name: "Short Chino Beige", 
+            name: "Short Beige", 
             price: 5500, 
             image: "https://images.unsplash.com/photo-1594938298603-c8248f8e7fd6?w=400&h=400&fit=crop", 
             stock: 7,
@@ -78,47 +78,47 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 11, 
             name: "Parfum Dior Sauvage", 
             price: 25000, 
-            image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop", 
+            image: "https://www.poudrine.com/cdn/shop/files/Y0998004_C099600455_E01_ZHC_f39f3722-b33b-497a-ac6d-1ac1ccf90ec8_900x.jpg?v=1741282850", 
             stock: 8,
             category: "Parfums"
         },
         { 
             id: 12, 
-            name: "Parfum Chanel Bleu", 
+            name: "Parfum Victoria lattafa", 
             price: 28000, 
-            image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop", 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eykCX4PJHAvJ4RB_gH_Q-Ng60ncIFTeKonyFb9A9mA&s=10", 
             stock: 6,
             category: "Parfums"
         },
         { 
             id: 13, 
-            name: "Parfum Versace Eros", 
-            price: 22000, 
-            image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop", 
+            name: "Parfum Drift", 
+            price: 25000, 
+            image: "https://doux-parfumerie.com/assets/images/products/drift-riiffs-2.webp", 
             stock: 10,
             category: "Parfums"
         },
         { 
             id: 14, 
-            name: "Parfum Paco Rabanne 1M", 
-            price: 24000, 
-            image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop", 
+            name: "Parfum Matelot", 
+            price: 7000, 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjG1roHhvAUWZq2jX2vp_s14gBqveQQi9_1WreX03xkw&s=10", 
             stock: 5,
             category: "Parfums"
         },
         { 
             id: 15, 
-            name: "Parfum Tom Ford Noir", 
-            price: 32000, 
-            image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop", 
+            name: "Parfum musuf", 
+            price: 10000, 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOKT6RfSlzYz-mbbPwHg3mPwZw5f0k0I3jxU-WR6NtUw&s=10", 
             stock: 4,
             category: "Parfums"
         },
         { 
             id: 16, 
-            name: "Parfum Jean Paul Gaultier", 
-            price: 21000, 
-            image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop", 
+            name: "Parfum liquide brun", 
+            price: 25000, 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsAVqRrw_oPr4NUE159rLHufUfMUBZ1XX5zYpPUJ_rHg&s=10", 
             stock: 7,
             category: "Parfums"
         },
@@ -126,8 +126,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // ---------- ACCESSOIRES ----------
         { 
             id: 5, 
-            name: "Montre Classique Argent", 
-            price: 9500, 
+            name: "Montre Classique ", 
+            price: 5000, 
             image: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=400&fit=crop", 
             stock: 0,
             category: "Accessoires"
@@ -135,22 +135,22 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             id: 6, 
             name: "Casquette Street Noir", 
-            price: 3500, 
+            price: 3000, 
             image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400&h=400&fit=crop", 
             stock: 15,
             category: "Accessoires"
         },
         { 
             id: 17, 
-            name: "Ceinture en Cuir Marron", 
-            price: 6000, 
-            image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400&h=400&fit=crop", 
+            name: "Ceinture en Cuir ", 
+            price: 2000, 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGpmVmMSskNlQuEw7v_WpNDw05Ws-WViEsuyoZ3ym6w&s=10", 
             stock: 10,
             category: "Accessoires"
         },
         { 
             id: 18, 
-            name: "Sac à Dos Sport", 
+            name: "Sac à Dos ", 
             price: 12000, 
             image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop", 
             stock: 6,
@@ -158,17 +158,17 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 19, 
-            name: "Lunettes de Soleil Ray-Ban", 
-            price: 15000, 
-            image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400&h=400&fit=crop", 
+            name: "Lunettes de Soleil R", 
+            price: 1000, 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbQ-GB4N9CSvazr4wGI8GPwwLPIsHCfMzToha_v36qRXyqfomPN7kplqXo&s=10", 
             stock: 8,
             category: "Accessoires"
         },
         { 
             id: 20, 
             name: "Portefeuille en Cuir Noir", 
-            price: 7000, 
-            image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400&h=400&fit=crop", 
+            price: 3000, 
+            image: "https://senachat.com/public/uploads/all/exKQZkCj6oIMxQp22E8PoTO1ly4II6TfrrB9qvii.webp", 
             stock: 12,
             category: "Accessoires"
         }
@@ -365,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // ---------- ENVOYER SUR WHATSAPP ----------
     window.sendWhatsAppPayment = function(number, total, method) {
-        const message = `Bonjour KHILSHOP,\n\nJe souhaite effectuer un paiement de ${total.toLocaleString()} FCFA par ${method}.\n\n📱 Mon numéro : [VOTRE NUMÉRO]\n🔢 Référence : KHIL-${Date.now()}\n\nMerci !`;
+        const message = `Bonjour KHALILSHOP,\n\nJe souhaite effectuer un paiement de ${total.toLocaleString()} FCFA par ${method}.\n\n📱 Mon numéro : [VOTRE NUMÉRO]\n🔢 Référence : KHIL-${Date.now()}\n\nMerci !`;
         const url = `https://wa.me/221779284528?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
     }
