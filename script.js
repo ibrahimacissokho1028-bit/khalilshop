@@ -58,17 +58,17 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 9, 
-            name: "Short Beige", 
-            price: 5500, 
-            image: "https://images.unsplash.com/photo-1594938298603-c8248f8e7fd6?w=400&h=400&fit=crop", 
+            name: "Short Supreme ", 
+            price: 5000, 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCk5BjGYmONi3c6Zk1chV1KLxHumbND4jsDPbR1-nrlQ&s", 
             stock: 7,
             category: "Vêtements"
         },
         { 
             id: 10, 
-            name: "Costume Noir Classique", 
+            name: "Calecon", 
             price: 35000, 
-            image: "https://images.unsplash.com/photo-1594938298603-c8248f8e7fd6?w=400&h=400&fit=crop", 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXaQyHDw9qGM-Oyc4cn8PVGSXdUKj3vuVMJMKNswMUXw&s=10", 
             stock: 2,
             category: "Vêtements"
         },
