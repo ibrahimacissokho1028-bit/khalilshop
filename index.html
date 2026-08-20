@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KHALILSHOP · Homme</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <i class="fas fa-tshirt"></i> KHALIL<span>SHOP</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#panier">Panier</a></li>
+                <li><a href="#paiement">Paiement</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon" onclick="document.getElementById('panier').scrollIntoView({behavior:'smooth'})">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cartCount">0</span>
+        </div>
+    </header>
+
+    <!-- SECTION ACCUEIL -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Élégance &amp; Style</h1>
+            <p>Découvrez notre collection premium pour homme. Qualité et confort.</p>
+            <a href="#produits" class="btn-primary"><i class="fas fa-store"></i> Voir la collection</a>
+        </div>
+    </section>
+
+    <!-- SECTION PRODUITS -->
+    <section id="produits" class="products">
+        <h2><i class="fas fa-tags"></i> Nos vêtements &amp; accessoires</h2>
+        <div class="product-grid" id="productGrid">
+            <!-- Les produits seront injectés par JavaScript -->
+        </div>
+    </section>
+
+    <!-- SECTION PANIER -->
+    <section id="panier" class="cart-section">
+        <h2><i class="fas fa-shopping-basket"></i> Mon panier</h2>
+        <div id="cartContainer">
+            <div id="cartItems" class="cart-items">
+                <!-- Les articles du panier seront affichés ici -->
+            </div>
+            <div id="cartSummary" class="cart-summary">
+                <!-- Résumé du panier -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PAIEMENT -->
+    <section id="paiement" class="payment">
+        <h2><i class="fas fa-credit-card"></i> Paiement sécurisé</h2>
+        <div class="payment-methods">
+            <div class="method wave">
+                <i class="fas fa-wifi"></i>
+                <h3>Wave</h3>
+                <p>Paiement mobile rapide</p>
+                <button class="btn-pay" data-method="Wave">Payer avec Wave</button>
+            </div>
+            <div class="method orange">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Orange Money</h3>
+                <p>Paiement en toute confiance</p>
+                <button class="btn-pay" data-method="Orange Money">Payer avec Orange</button>
+            </div>
+        </div>
+        <div id="paymentMessage" class="payment-message"></div>
+    </section>
+
+    <!-- SECTION CONTACT / WHATSAPP -->
+    <section id="contact" class="contact">
+        <h2><i class="fab fa-whatsapp"></i> Commander par WhatsApp</h2>
+        <p>Cliquez sur le bouton ci-dessous pour passer votre commande directement sur WhatsApp.</p>
+        <a href="https://wa.me/221779284528?text=Bonjour%20KHALILSHOP%2C%20je%20souhaite%20passer%20une%20commande." 
+           target="_blank" class="whatsapp-btn" id="whatsappBtn">
+            <i class="fab fa-whatsapp"></i> Commander maintenant
+        </a>
+        <p class="phone-info"><i class="fas fa-phone"></i> +221 77 928 45 28</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 KHALILSHOP · Tous droits réservés</p>
+        <p><i class="fas fa-map-marker-alt"></i> Dakar, Sénégal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
