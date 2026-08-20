@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             id: 9, 
             name: "Short Supreme ", 
-            price: 5000, 
+            price: 6000, 
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCk5BjGYmONi3c6Zk1chV1KLxHumbND4jsDPbR1-nrlQ&s", 
             stock: 7,
             category: "Vêtements"
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             id: 10, 
             name: "Calecon", 
-            price: 35000, 
+            price: 5000, 
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXaQyHDw9qGM-Oyc4cn8PVGSXdUKj3vuVMJMKNswMUXw&s=10", 
             stock: 2,
             category: "Vêtements"
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             id: 11, 
             name: "Parfum Dior Sauvage", 
-            price: 25000, 
+            price: 7000, 
             image: "https://www.poudrine.com/cdn/shop/files/Y0998004_C099600455_E01_ZHC_f39f3722-b33b-497a-ac6d-1ac1ccf90ec8_900x.jpg?v=1741282850", 
             stock: 8,
             category: "Parfums"
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             id: 12, 
             name: "Parfum Victoria lattafa", 
-            price: 28000, 
+            price: 25000, 
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eykCX4PJHAvJ4RB_gH_Q-Ng60ncIFTeKonyFb9A9mA&s=10", 
             stock: 6,
             category: "Parfums"
